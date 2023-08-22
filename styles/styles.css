@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header-box {
+  background: #3e8989;
+}
+.header-vse {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+  padding: 37px 0;
+}
+.contact {
+  display: flex;
+  gap: 37px;
+}
+.header-contact-li {
+  color: #fff;
+  font-family: "RM";
+  font-size: 16px;
+  position: relative;
+}
+.header-contact-li::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  border-radius: 5px;
+  background: #fff;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transform: scale(0);
+  transition: 0.3s;
+}
+.header-contact-li:hover::after {
+  transform: scale(1);
+}
+.header-poisk {
+  display: flex;
+}
+.header-input {
+  color: #898989;
+  font-family: "RR";
+  font-size: 16px;
+  border-radius: 20px 0px 0 20px;
+  background: #fff;
+  max-width: 216px;
+  width: 100%;
+  padding: 9px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+.header-button {
+  padding: 9px 14px;
+  border-radius: 0px 20px 20px 0px;
+  background: #295e5e;
+  color: #fff;
+  font-family: "RR";
+  font-size: 14px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+.header-content {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(../images/gori.png) no-repeat center/cover;
+}
+.header-content-h1 {
+  color: #fff;
+  font-family: "SMB";
+  font-size: 80px;
+  margin-bottom: 20px;
+  margin-top: -150px;
+}
+.header-content-p {
+  color: #fff;
+  font-family: "RM";
+  font-size: 40px;
+}
+.header-content-button {
+  width: 200px;
+  padding: 14px;
+  color: #fff;
+  font-family: "ISB";
+  font-size: 18px;
+  border-radius: 30px;
+  background: #fff;
+  color: #b4436c;
+  margin-top: 50px;
+  border: none;
+  outline: none;
+  resize: none;
+  transition: all 300ms;
+}
+.header-content-button:hover {
+  background: #b4436c;
+  color: #fff;
+}
+.main-h2-one {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  color: #3e8989;
+  font-family: "ISB";
+  font-size: 40px;
+}
+.main-p-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  max-width: 545px;
+  width: 100%;
+}
+.main-p-one {
+  color: #000;
+  font-family: "RR";
+  font-size: 18px;
+}
+.main-img-p {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.main-h2-two {
+  display: flex;
+  justify-content: center;
+  margin-top: 97px;
+  color: #3e8989;
+  font-family: "ISB";
+  font-size: 40px;
+}
+.main-two-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #efefef;
+  width: 263px;
+  height: 300px;
+}
+.main-two-img-h3 {
+  max-width: 263px;
+  width: 100%;
+}
+.main-two-h3 {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-family: "ISB";
+  font-size: 24px;
+  margin-top: 23px;
+  transition: all 300ms;
+}
+.main-two-h3:hover {
+  color: #b4436c;
+}
+.main-two-catalog {
+  margin-top: 53px;
+  display: flex;
+  gap: 20px;
+}
+.main-three-h2 {
+  margin-top: 100px;
+  color: #3e8989;
+  font-family: "ISB";
+  font-size: 40px;
+}
+.main-three-left {
+  max-width: 555px;
+  width: 100%;
+}
+.main-three-p {
+  color: #000;
+  font-family: "RR";
+  font-size: 20px;
+  margin-top: 50px;
+}
+.main-three-tell {
+  color: #000;
+  font-family: "RR";
+  font-size: 20px;
+}
+.main-three-email {
+  color: #000;
+  font-family: "RR";
+  font-size: 20px;
+}
+.main-three-right {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.main-three-contact {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-box {
+  height: 150px;
+  background: #3e8989;
+  margin-top: 124px;
+}
+.footer-ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.footer-a {
+  display: block;
+  color: #fff;
+  font-family: "RM";
+  font-size: 16px;
+  padding-top: 40px;
+}
+.footer-reserver {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 59px;
+}
+.footer-p {
+  color: #fff;
+  font-family: "RR";
+  font-size: 14px;
+}
